@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and Minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Canvasjs -->
+  <link rel="stylesheet" href="https://canvasjs.com/assets/script/canvasjs.min.js">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style2.css">
+  <title>Activity Compilation</title>
+</head>
+
+<body class="grey lighten-1">
+  <div class="navbar-fixed">
+    <nav class="pink lighten-3">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="sidenav.html" class="brand-logo grey-text text-darken-3"><img src="../Activities/Pictures/Logo.png"
+              width="70px" height="70pt" alt=""></a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li class="active">
+              <a href="sidenav.html">Menu</a>
+            </li>
+            <li>
+              <a href="categories.html">Categories</a>
+            </li>
+            <li>
+              <a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">person</i></a>
+            </li>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li class="active"><a href="#!">User Account</a></li>
+              <li><a href="#!">Logout</a></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <ul id="slide-out" class="sidenav grey lighten-2">
+    <li>
+      <div class="user-view">
+        <div class="background pink lighten-3"></div>
+        <a href="#">
+          <img
+            src="https://images.pexels.com/photos/1314550/pexels-photo-1314550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="" class="circle">
+        </a>
+        <a href="#">
+          <span class="name black-text text-darken-2">User_007</span>
+        </a>
+        <a href="#">
+          <span class="email black-text text-darken-2">user_007@email.com</span>
+        </a>
+      </div>
+    </li>
+    <li class="divider"></li>
+    <li class="active">
+      <a href="sidenav.html"><i class="material-icons">dashboard</i>Menu</a>
+    </li>
+    <li>
+      <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+        <i class="material-icons">person</i>Account<i class="material-icons right">arrow_drop_down</i>
+      </a>
+    </li>
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="#!">User Account</a></li>
+      <li><a href="#!">Logout</a></li>
+    </ul>
+  </ul>
+
+  <div class="container">
+    <!--Container Start -->
+    <div class="row">
+      <h3 class="center">Cards</h3>
+      <div class="col s12 m6">
+        <div class="card large">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator responsive-img" src="../Activities/Pictures/Wikipedia.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Wikipedia<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="#">This is a scam</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Wikipedia<i class="material-icons right">close</i></span>
+            <p>An online page where you can search for the information you need, regardless if it is right or wrong.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card large">
+          <div class="card-image">
+            <img src="../Activities/Pictures/wattpad logo 2.jpg" class="responsive-img materialboxed">
+            <span class="card-title black-text">Wattpad</span>
+          </div>
+          <div class="card-content">
+            <p>An online literature platform intended for users to read and write original
+              stories.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Source</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+    <h2 class="center">Grid Activity</h2>
+      <div class="col s3">
+        <div class="box">
+          <i class="material-icons">book</i>
+        </div>
+      </div>
+      <div class="col s3">
+        <div class="box">
+          <i class="material-icons">bookmark</i>
+        </div>
+      </div>
+      <div class="col s3">
+        <div class="box">
+          <i class="material-icons">cloud_download</i>
+        </div>
+      </div>
+      <div class="col s3">
+        <div class="box">
+          <i class="material-icons">assistant</i>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="box">
+          <span class="flow-text">This rectangle takes up 12 grid spaces.</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6">
+        <div class="box">
+          <span class="flow-text">This rectangle is a square with 6 grid spaces.</span>
+        </div>
+      </div>
+      <div class="col s6">
+        <div class="box">
+          <span class="flow-text">This square is a rectangle with 6 grid spaces.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s9">
+        <div class="box">
+          <span class="flow-text">9 grid space on the side.</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s9 offset-s3">
+        <div class="box">
+          <span class="flow-text">9 grid space on the other side.</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s5 push-s7">
+        <div class="box">
+          <span class="flow-text">push ko 7</span>
+        </div>
+      </div>
+      <div class="col s7 pull-s5">
+        <div class="box">
+          <span class="flow-text">pull mo 5</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s4">
+        <img src="../Activities/Pictures/lightnovel.jpg" class="center">
+        <h4 class="center-align">LightNovelWorld</h4>
+        <p class="center-align">Read the translated versions of world famous Japanese, Chinese and Korean light
+          novels in English. </p>
+      </div>
+      <div class="col s4">
+        <img src="../Activities/Pictures/wattpad logo.jpg" class="center">
+        <h3 class="center-align">Wattpad</h3>
+        <p class="center-align">An online literature platform intended for users to read and write original
+          stories.</p>
+      </div>
+      <div class="col s4">
+        <img src="../Activities/Pictures/batoto.jpg" class="center">
+        <h3 class="center-align">Manga</h3>
+        <p class="center-align">Comics or graphic novels originating from Japan. The term manga is used in Japan
+          to refer to both comics and cartooning.</p>
+      </div>
+    </div>
+    <div class="row">
+      <h3 class="center">Carousel & Slider</h3>
+      <div class="col s12 m12 l6">
+        <div class="card large">
+          <div class="carousel">
+            <a class="carousel-item" href="#one!"><img
+                src="https://images.pexels.com/photos/982314/pexels-photo-982314.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="responsive-img"></a>
+            <a class="carousel-item" href="#two!"><img
+                src="https://images.pexels.com/photos/804475/pexels-photo-804475.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="responsive-img"></a>
+            <a class="carousel-item" href="#three!"><img
+                src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80"
+                class="responsive-img"></a>
+            <a class="carousel-item" href="#four!"><img
+                src="https://images.pexels.com/photos/1314550/pexels-photo-1314550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="responsive-img"></a>
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Cat Carousel<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="#">This is a carousel for cats.</a><br></p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l6">
+        <div class="card large">
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img
+                  src="https://images.unsplash.com/photo-1570824104453-508955ab713e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=711&q=80"
+                  class="responsive-img" alt="A Basket of Kittens">
+                <div class="caption center-align">
+                  <h2 class="grey-text">Want A Cat?</h2>
+                </div>
+              </li>
+              <li>
+                <img src="https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg"
+                  class="responsive-img" alt="Free Kittens">
+                <div class="caption center-align">
+                  <h2 class="gold-text">Adopt A Cat</h2>
+                  <h4 class="gold-text">instead of buying expensive breeds.</h4>
+                </div>
+              </li>
+              <li>
+                <img
+                  src="https://images.unsplash.com/photo-1570458436416-b8fcccfe883f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  class="responsive-img" alt="Picturesqe Kitten">
+                <div class="caption center-align">
+                  <h2 class="amber-text">Make A Cat and Yourself Happier</h2>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Cat Slider<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="#">This is a slider presenation for cats.</a><br></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h3 class="center">MaterialBox</h3>
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image">
+            <img
+              src="https://www.hillspet.com/content/dam/cp-sites/hills/hills-pet/en_us/exported/cat-breeds/images/tabby-kittens-on-bed.jpg"
+              alt="" class="responsive-img materialboxed">
+            <span class="card-title">Domestic Shorthair</span>
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Domestic Shorthair<i
+                class="material-icons right">more_vert</i></span>
+            <p>The most common and popular breed of cat by far, the Domestic Shorthair title covers
+              pretty much the whole gamut of moggies that don't fall under any specific breed.
+              They've
+              been around since at least 2000BC and come in all shapes, sizes and colorings.
+              Thanks to
+              a deep gene pool, they're generally good-natured, healthy and level-headed cats that
+              love to play and hunt.</p>
+            <p><a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Domestic Shorthair<i
+                class="material-icons right">close</i></span>
+            <p>The most common and popular breed of cat by far, the Domestic Shorthair title covers
+              pretty much the whole gamut of moggies that don't fall under any specific breed.
+              They've
+              been around since at least 2000BC and come in all shapes, sizes and colorings.
+              Thanks to
+              a deep gene pool, they're generally good-natured, healthy and level-headed cats that
+              love to play and hunt.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image">
+            <img
+              src="https://res.cloudinary.com/petrescue/image/upload/petrescue-production-s3/uploads/pet_photos/2016/12/2/499962_97dc8_orig.jpg"
+              alt="" class="responsive-img materialboxed">
+            <span class="card-title">Domestic Longhair</span>
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Domestic Longhair<i
+                class="material-icons right">more_vert</i></span>
+            <p>Like the Domestic Shorthair, the Domestic Longhair is a melting pot of feline
+              genetics
+              that comes in every shape, size and color. The big difference, of course, is the
+              longer hair;
+              it's thought that this breed originated in Russia, Turkey and Iran, where the
+              weather
+              gets colder in winter than in the warmer climates where the domestic cat originated.
+              As with
+              the Domestic Shorthair, these regal-looking moggies make excellent pets.</p>
+            <p><a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Domestic Longhair<i
+                class="material-icons right">close</i></span>
+            <p>Like the Domestic Shorthair, the Domestic Longhair is a melting pot of feline
+              genetics
+              that comes in every shape, size and color. The big difference, of course, is the
+              longer hair;
+              it's thought that this breed originated in Russia, Turkey and Iran, where the
+              weather
+              gets colder in winter than in the warmer climates where the domestic cat originated.
+              As with
+              the Domestic Shorthair, these regal-looking moggies make excellent pets.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image">
+            <img
+              src="https://imgs.search.brave.com/cq959eDw4cTVoNUgJsMpxADx0Emp0wyYw3vFBc_ijIY/rs:fit:1200:800:1/g:ce/aHR0cHM6Ly9ibG9n/Lm15c3RhcnQuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9jYXB0/dXJlMDEtMTI4MHg4/MDAtMTkucG5n"
+              alt="" class="responsive-img materialboxed">
+            <span class="card-title">Siamese</span>
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Siamese<i
+                class="material-icons right">more_vert</i></span>
+            <p>A hugely recognizable cat thanks to its sleek body and striking blue eyes, the
+              Siamese
+              originated in Thailand but became hugely popular in the Western world in the 19th
+              century and has remained a firm favorite ever since. It can seem like an imperious
+              and
+              forbidding feline, but it's actually a very affectionate and intelligent cat that
+              loves to play
+              and
+              which will bond strongly with its owner.</p>
+            <p><a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Siamese<i class="material-icons right">close</i></span>
+            <p>A hugely recognizable cat thanks to its sleek body and striking blue eyes, the
+              Siamese
+              originated in Thailand but became hugely popular in the Western world in the 19th
+              century and has remained a firm favorite ever since. It can seem like an imperious
+              and
+              forbidding feline, but it's actually a very affectionate and intelligent cat that
+              loves to play
+              and
+              which will bond strongly with its owner.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator"
+              src="https://imgs.search.brave.com/SLjetpuUkZ__8fQFBPNFEHF7hq_kBVq5l8Mk__zPbnU/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jYXQt/d29ybGQuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE5LzEy/L0FTMy1zY2FsZWQu/anBnP2dpZD0yNA">
+            <span class="card-title">American Shorthair</span>
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">American Shorthair<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">American Shorthair<i
+                class="material-icons right">close</i></span>
+            <p>Not to be confused with the Domestic Shorthair, the American Shorthair is descended
+              from
+              ships' cats brought over by European settlers, and it's a tough breed that became
+              this
+              way thanks to a hard life of hunting rats in an inhospitable colony.</p>
+            <p>
+              A solidly-built heavyweight of the feline world (male cats can weigh up to 15
+              pounds),
+              the American Shorthair is a recognized pedigree breed but also a working cat that
+              loves to
+              hunt; you'll need to keep it supplied with exciting toys if you don't want to be
+              inundated
+              with furry or feathery gifts. American Shorthairs also tend to be affectionate,
+              easy-going
+              pets.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image">
+            <img src="https://blog.epicpetster.com/wp-content/uploads/2018/04/ragdoll-cat.png" alt=""
+              class="responsive-img materialboxed">
+            <span class="card-title">Ragdoll</span>
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Ragdoll<i
+                class="material-icons right">more_vert</i></span>
+            <p>If you've ever wished a cat could be more like a dog, a Ragdoll is probably the breed
+              for
+              you. Originally bred in the 1960s, Ragdolls are well-known for their laid-back and
+              affectionate nature, while their tendency to go limp when picked up will make them
+              extremely attractive to anyone who's had to take a furious ball of teeth and claws
+              to
+              the vet.</p>
+            <p><a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Ragdoll<i class="material-icons right">close</i></span>
+            <p>If you've ever wished a cat could be more like a dog, a Ragdoll is probably the breed
+              for
+              you. Originally bred in the 1960s, Ragdolls are well-known for their laid-back and
+              affectionate nature, while their tendency to go limp when picked up will make them
+              extremely attractive to anyone who's had to take a furious ball of teeth and claws
+              to
+              the vet.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator"
+              src="https://imgs.search.brave.com/gv1m6kAMxXhmo2jl__ICuy2bZW0Y-ykAWmMSUnzlenQ/rs:fit:731:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5P/dlhDTDZPc2FEMHhn/RDJKeDVLYlVRSGFF/eiZwaWQ9QXBp">
+            <span class="card-title">Maine Coon</span>
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Maine Coon<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Maine Coon<i class="material-icons right">close</i></span>
+            <p>Like the Domestic Shorthair, the Domestic Longhair is a melting pot of feline
+              genetics
+              that comes in every shape, size and color. The big difference, of course, is the
+              longer hair;
+              it's thought that this breed originated in Russia, Turkey and Iran, where the
+              weather
+              gets colder in winter than in the warmer climates where the domestic cat originated.
+              As with
+              the Domestic Shorthair, these regal-looking moggies make excellent pets.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://www.petsradar.com/advice/most-common-cat-breeds">source</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <!-- Section Stats -->
+      <section class="section section-stats purple lighten-5">
+        <h3 class="center">Modal w/ Preloader</h3>
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card-panel">
+              <!-- Modal Trigger -->
+              <div class="card-image">
+                <a class="waves-effect waves-light modal-trigger" href="#modal1"><img
+                    src="https://images.pexels.com/photos/1314550/pexels-photo-1314550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" class="responsive-img"></a>
+                <h5>Royalty Cats:</h5>
+                <h3 class="center">3209</h3>
+                <div class="progress">
+                  <div class="determinate pink" style="width: 20%"></div>
+                </div>
+                <!-- Modal Structure -->
+                <div class="card-content">
+                  <div id="modal1" class="modal">
+                    <div class="modal-content">
+                      <h5>Royalty Cats:</h5>
+                      <h3 class="center">3209</h3>
+                      <div class="progress">
+                        <div class="determinate pink" style="width: 20%"></div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- Modal End -->
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card-panel">
+              <!-- Modal Trigger -->
+              <div class="card-image">
+                <a class="waves-effect waves-light modal-trigger" href="#modal2"><img
+                    src="https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80"
+                    alt="" class="responsive-img"></a>
+                <h5>Kittens:</h5>
+                <h3 class="center">12673</h3>
+                <div class="progress">
+                  <div class="determinate pink" style="width: 90%"></div>
+                </div>
+                <!-- Modal Structure -->
+                <div class="card-content">
+                  <div id="modal2" class="modal">
+                    <div class="modal-content">
+                      <h5>Kittens:</h5>
+                      <h3 class="center">12673</h3>
+                      <div class="progress">
+                        <div class="determinate pink" style="width: 90%"></div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- Modal End -->
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card-panel">
+              <!-- Modal Trigger -->
+              <div class="card-image">
+                <a class="waves-effect waves-light modal-trigger" href="#modal3"><img
+                    src="https://images.pexels.com/photos/923360/pexels-photo-923360.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="" class="responsive-img"></a>
+                <div class="progress">
+                  <div class="indeterminate purple"></div>
+                </div>
+                <!-- Modal Structure -->
+                <div class="card-content">
+                  <div id="modal3" class="modal">
+                    <div class="modal-content">
+                      <div class="progress">
+                        <div class="indeterminate purple"></div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- Modal End -->
+            </div>
+          </div>
+        </div>
+      </section><!-- Section Stats End -->
+      <!-- Section Stats -->
+      <section class="section section-visitors pink lighten-5 content">
+        <h3 class="center">Chart & Collection</h3>
+        <div class="row">
+          <div class="col s12 m12 l8">
+            <div id="chartContainer" style="height: 400px; width: 100%;"></div>
+          </div>
+          <!-- Comment Section -->
+          <div class="col s12 m12 l4">
+            <ul class="collection with-header latest-comments">
+              <li class="collection-header">
+                <h5>Latest Comments</h5>
+              </li>
+              <li class="collection-item avatar">
+                <img
+                  src="https://images.pexels.com/photos/735423/pexels-photo-735423.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  alt="" class="circle">
+                <span class="title">User_004</span>
+                <p class="truncate">Woah. Love It.</p>
+                <a href="#!">Like</a>
+                <a href="#!">Dislike</a>
+              </li>
+              <li class="collection-item avatar">
+                <img
+                  src="https://images.pexels.com/photos/1406282/pexels-photo-1406282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="" class="circle">
+                <span class="title">User_003</span>
+                <p class="truncate">So Nice.</p>
+                <a href="#!">Like</a>
+                <a href="#!">Dislike</a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- Comment Section End -->
+        <!-- Preloader -->
+        <br>
+        <div class="center">
+          <div class="preloader-wrapper big active loader">
+            <div class="spinner-layer spinner-red">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div>
+              <div class="gap-patch">
+                <div class="cicle"></div>
+              </div>
+              <div class="cicle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+            <div class="spinner-layer spinner-green">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div>
+              <div class="gap-patch">
+                <div class="circle"></div>
+              </div>
+              <div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+            <div class="spinner-layer spinner-yellow">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div>
+              <div class="gap-patch">
+                <div class="circle"></div>
+              </div>
+              <div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+            <div class="spinner-layer spinner-blue">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div>
+              <div class="gap-patch">
+                <div class="circle"></div>
+              </div>
+              <div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div><!-- Preloader End -->
+          <h3 class="grey-text text-darken-3">Loading...</h3>
+        </div>
+
+      </section><!-- Section Stats End -->
+    </div>
+  </div>
+
+  <footer class="page-footer pink lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="black-text">Did you know?</h5>
+          <p class="grey-text text-darken-4">If you study hard, you'll eventually suceed? This is because life is
+            composed of continuous learning.</p>
+          <p>(This is also why people are never satisfied.. ;P) </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="grey-text text-darken-4">Source of Info</h5>
+          <p>Yours truly, ;P</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright purple lighten-4 grey-text text-darken-4">
+      <div class="container">
+        © 2022 Copyright Text
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and Minified Javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="js/chart-activity.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel').carousel();
+      $('.materialboxed').materialbox();
+      $('.slider').slider({
+        fullWidth: true,
+        indicators: false,
+      });
+      $('.sidenav').sidenav({
+        inDuration: 500,
+        outDuration: 500,
+        preventScrolling: true
+      });
+      $('.dropdown-trigger').dropdown({
+        hover: true
+      });
+      $('.modal').modal();
+    })
+  </script>
+</body>
+
+</html>
