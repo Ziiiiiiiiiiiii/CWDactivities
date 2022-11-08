@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+  <title>Cats</title>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="amber lighten-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="cats.html" class="brand-logo"><img src="Logo.png" width="70px" height="70pt"></a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="cats.html" class="black-text">Home</a>
+            </li>
+            <li class="active z-depth-1">
+              <a href="adopt.html" class="black-text">Adopt</a>
+            </li>
+            <li>
+              <a href="about.html" class="black-text">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--  Sidenav Structure -->
+  <ul id="slide-out" class="sidenav grey lighten-2">
+    <li>
+      <div class="user-view">
+        <div class="background amber lighten-4"></div>
+        <a href="#">
+          <img src="Logo.png" alt="" class="circle">
+        </a>
+      </div>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="cats.html"><i class="material-icons">dashboard</i>Home</a>
+    </li>
+    <li class="active z-depth-1">
+      <a href="adopt.html"><i class="material-icons">pets</i>Adopt A Cat</a>
+    </li>
+    <li>
+      <a href="about.html"><i class="material-icons">person</i>About Us</a>
+    </li>
+  </ul>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img
+        src="https://images.pexels.com/photos/1406282/pexels-photo-1406282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="">
+    </div>
+  </div>
+  <div class="section amber lighten-4">
+    <div class="row">
+      <div class="container">
+        <div class="col s12 m8 offset-m1">
+          <h2>Adopt A Cat</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section-stats amber lighten-5">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h3 class="header">Did you know these <a
+              href="https://cvillecatcare.com/veterinary-topics/101-amazing-cat-facts-fun-trivia-about-your-feline-friend/">Fun
+              Facts</a>?</h3>
+
+          <h6>--Cats have an extra organ that allows them to taste scents on the air, which is why your cat stares at
+            you
+            with her mouth open from time to time.</h6>
+          <p>--Cats are nearsighted, but their peripheral vision and night vision are much better than that of humans.
+          </p>
+          <h6>--Cats walk like camels and giraffes: They move both of their right feet first, then move both of their
+            left
+            feet. No other animals walk this way.</h6>
+          <p>--Though cats can notice the fast movements of their prey, it often seems to them that slow-moving
+            objects
+            are actually stagnant.</p>
+          <h5>--Cats make very little noise when they walk around. The thick, soft pads on their paws allow
+            them to sneak up on their prey — or you!</h5>
+        </div>
+
+        <div class="col s12 m6"><br>
+          <h3 class="black-text">Set an Appointment Now!</h3>
+          <div class="card-panel grey lighten-5 black-text">
+            <form action="">
+              <div class="input-field">
+                <input type="text" id="first_name">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="last_name">
+                <label for="last_name">Last Name</label>
+              </div>
+              <div class="col s6">
+                <label for="datepicker">Date</label>
+                <input type="text" class="datepicker grey lighten-5">
+              </div>
+              <div class="col s6">
+                <div class="input-field">
+                  <select class="browser-default grey lighten-5" name="" id="location">
+                    <option value="" disabled selected>Location</option>
+                    <option value="lhquezon"> Loyola Heights, Quezon City</option>
+                    <option value="malate">Malate, Manila</option>
+                    <option value="dquezon">Diliman, Quezon City</option>
+                    <option value="fbmanila">Manila</option>
+                    <option value="sjdmbulacan">San Jose Del Monte Bulacan</option>
+                    <option value="mandaluyong">Mandaluyong City</option>
+                    <option value="cebu">Cebu</option>
+                    <option value="iloilo">Iloilo</option>
+                  </select>
+                </div><br>
+              </div>
+              <input type="submit" value="Continue" class="btn btn-medium amber">
+            </form>
+          </div>
+        </div>
+      </div>
+  </section>
+  <div class="container">
+    <li class="divider"></li>
+  </div>
+  <!-- Cards -->
+  <footer class="page-footer amber lighten-4">
+    <div id="contact" class="section scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="black-text">Contact Us</h5>
+            <p class="grey-text text-darken-4"><i class="material-icons">phone_android</i> 09phoneNumber</p>
+            <p class="grey-text text-darken-4"><i class="material-icons">mail</i> email@email.com</p>
+            <p class="grey-text text-darken-4"><i class="material-icons">pages</i> facebook.com/fb-account</p>
+            <p class="grey-text text-darken-4"><i class="material-icons">ondemand_video</i> youtube.com/youtubeaccount</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="grey-text text-darken-4">More Info</h5>
+            <div class="row">
+              <div class="col s6">
+                <p class="grey-text text-darken-4"><a href="https://paws.org.ph/">PAWS</a></p>
+                <p class="grey-text text-darken-4"><a href="http://www.caraphil.org/">CARA</a></p>
+                <p class="grey-text text-darken-4"><a
+                    href="http://www.facebook.com/animalkingdomfoundationphilippines">AKF</a></p>
+                <p class="grey-text text-darken-4"><a
+                    href="https://www.facebook.com/groups/PhilippineAnimalLoversSociety/">PALS</a></p>
+                <p class="grey-text text-darken-4"><a href="http://www.philanimalrescue.org/">PART</a></p>
+              </div>
+              <div class="col s6">
+                <p class="grey-text text-darken-4"><a href="https://www.facebook.com/Help.MAS.Dogs">HelpMAS</a></p>
+                <p class="grey-text text-darken-4"><a href="http://www.facebook.com/IslandRescueOrganization">IRO</a>
+                </p>
+                <p class="grey-text text-darken-4"><a href="https://www.facebook.com/AwaIloilo">AWA</a></p>
+                <p class="grey-text text-darken-4"><a href="aklananimalrescue@gmail.com">AARRC</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright amber lighten-3 grey-text text-darken-4">
+        <div class="container">
+          © 2022 Catpyright Text
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and Minified Javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.parallax').parallax();
+      $('.sidenav').sidenav({
+        inDuration: 500,
+        outDuration: 500,
+        preventScrolling: true
+      });
+      $('.dropdown-trigger').dropdown();
+      $('select').formSelect();
+      $('.datepicker').datepicker({
+        format: 'mmmm dd, yyyy',
+        disableWeekends: true,
+      });
+    })
+  </script>
+</body>
+
+</html>

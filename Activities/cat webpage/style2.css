@@ -1,0 +1,26 @@
+ .main-header {
+   min-height: 350px;
+   background: url(https://images.pexels.com/photos/1406282/pexels-photo-1406282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-size: cover;
+   background-position: top;
+ }
+
+ .main-header .text1 {
+   padding-top: 800px;
+
+ }
+
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
+
+ button {
+   width: 200px;
+   padding: 10px;
+   border: none;
+   cursor: pointer;
+   border-radius: 8%;
+ }
